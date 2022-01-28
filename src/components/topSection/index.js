@@ -11,7 +11,7 @@ const TopSectionContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 13%;
+  justify-content: center;
   z-index: 99;
 `;
 
@@ -81,7 +81,7 @@ export function TopSection() {
       </Paragraph>
       <DonateButton>Donate</DonateButton>
       <MadeBy>
-        <u>Made By:</u> Muhammad Nabeel
+        <u>Made by  :  Muhammad Nabeel </u>
       </MadeBy>
     </TopSectionContainer>
   );
